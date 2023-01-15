@@ -4,7 +4,7 @@ This action sets up [tfsubst](https://github.com/RossyWhite/tfsubst) for use in 
 
 ```shell
 - name: Setup tfsubst
-  uses: RossyWhite/setup-tfsubst@latest
+  uses: RossyWhite/setup-tfsubst@v0.1.0
 - name: Run tfsubst
   run: |
     tfsubst --version
