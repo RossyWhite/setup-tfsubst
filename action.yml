@@ -1,0 +1,10 @@
+name: "setup-tfsubst"
+author: "RossyWhite"
+description: "install tfsubst on your environment"
+runs:
+  using: "composite"
+  steps:
+    - name: "Install tfsubst"
+      run: |
+        curl -sfL https://raw.githubusercontent.com/RossyWhite/tfsubst/main/install.sh | sh
+      shell: bash
